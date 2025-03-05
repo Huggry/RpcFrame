@@ -2,7 +2,6 @@
 using namespace std;
 
 //KMP算法  next数组  i之前有多大相等的前缀和后缀长度-1
-
 void GetNext(vector<int>& next, const string& needle){
     int j = -1;
     next[0] = j;
